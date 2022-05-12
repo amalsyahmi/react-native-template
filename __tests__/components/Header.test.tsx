@@ -1,10 +1,10 @@
 import 'react-native';
 import React from 'react';
+import { create } from 'react-test-renderer';
+
 import {Header} from '../../src/components/Header';
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
-
 it('renders correctly', () => {
-  renderer.create(<Header />);
+  const ui = create(<Header />).toJSON();
+  expect(ui).toMatchSnapshot();
 });

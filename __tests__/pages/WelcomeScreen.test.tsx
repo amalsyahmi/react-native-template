@@ -1,9 +1,8 @@
 import 'react-native';
 import React from 'react';
-import {WelcomeScreen} from '../../src/pages/welcome-screen';
+import { create } from 'react-test-renderer';
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+import {WelcomeScreen} from '../../src/pages/welcome-screen';
 
 const mockedNavigation = jest.fn();
 
@@ -18,12 +17,13 @@ jest.mock('@react-navigation/core', () => {
   };
 });
 
-describe('Testing Welcome Screen', () => {
+describe('WelcomeScreen page', () => {
   beforeEach(() => {
     mockedNavigation.mockClear();
   });
 
   it('renders correctly', () => {
-    renderer.create(<WelcomeScreen />);
+    const ui = create(<WelcomeScreen />).toJSON();
+    expect(ui).toMatchSnapshot();
   });
 });

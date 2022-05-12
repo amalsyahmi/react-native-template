@@ -4,7 +4,13 @@ export const Header = () => {
   return (
     <SafeAreaView>
       <View style={{paddingVertical: 20}}>
-        <Text style={{alignSelf: 'center', fontSize: 25, color: '#555', fontWeight: 'bold'}}>
+        <Text
+          style={{
+            alignSelf: 'center',
+            fontSize: 25,
+            color: '#555',
+            fontWeight: 'bold',
+          }}>
           React Native Template
         </Text>
       </View>

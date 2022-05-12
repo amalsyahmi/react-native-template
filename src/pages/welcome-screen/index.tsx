@@ -1,10 +1,8 @@
-import * as React from "react";
+import * as React from 'react';
 import {SafeAreaView, Text, View, Button, Alert} from 'react-native';
-import { useNavigation } from "@react-navigation/native";
-
+import {useNavigation} from '@react-navigation/native';
 
 export const WelcomeScreen = () => {
-
   const navigation = useNavigation();
 
   return (
@@ -14,23 +12,25 @@ export const WelcomeScreen = () => {
           by Amal Syahmi
         </Text>
         {/* Spacer */}
-        <View style={{width: 30, height: 30}}></View>
+        <View style={{width: 30, height: 30}} />
         <Button
           onPress={() => Alert.alert('Alert !', 'alert sample')}
           title="Alert"
           color="#841584"
           accessibilityLabel="Learn more about this purple button"
         />
-        <View style={{width: 10, height: 10}}></View>
+        <View style={{width: 10, height: 10}} />
         <Button
-          onPress={() => navigation.reset({
-            routes: [
-              {
-                name: "WelcomeScreen",
-                params: { screen: "WelcomeScreen" },
-              },
-            ],
-          })}
+          onPress={() =>
+            navigation.reset({
+              routes: [
+                {
+                  name: 'WelcomeScreen',
+                  params: {screen: 'WelcomeScreen'},
+                },
+              ],
+            })
+          }
           title="Navigate to page"
           color="#234489"
           accessibilityLabel="Learn more about this purple button"

@@ -14,4 +14,4 @@ sdk.dir = C:/Users/<your-pc-name>/AppData/Local/Android/sdk
 ```
 npx react-native init rntemplate
 ```
-* App.js was renamed to App.tsx and the codes was slightly been fixed.
+* This project use typescript.

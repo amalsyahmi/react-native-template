@@ -1,0 +1,6 @@
+.eslintrc.js
+**/*.md
+package.json
+react-native.config.js
+yarn.lock
+__tests__

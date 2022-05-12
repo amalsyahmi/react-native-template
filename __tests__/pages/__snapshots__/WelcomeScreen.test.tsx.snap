@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeScreen page renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 30,
+        "paddingVertical": 100,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "#777",
+          "fontSize": 25,
+        }
+      }
+    >
+      by Amal Syahmi
+    </Text>
+    <View
+      style={
+        Object {
+          "height": 30,
+          "width": 30,
+        }
+      }
+    />
+    <View
+      accessibilityLabel="Learn more about this purple button"
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#841584",
+              },
+            ]
+          }
+        >
+          Alert
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 10,
+          "width": 10,
+        }
+      }
+    />
+    <View
+      accessibilityLabel="Learn more about this purple button"
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#234489",
+              },
+            ]
+          }
+        >
+          Navigate to page
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
